@@ -1,8 +1,7 @@
-% Trafic Sign Detection Using MATLAB
+% RGB Detection Using MATLAB
 %
-%Mine KAYA-50596
-%Hamza DUMAN-50574
-%?srafil ÜZÜK-50577
+% Mine KAYA
+
 
 
 
@@ -43,6 +42,7 @@ while(vid.FramesAcquired<20)
  diff_imb  = bwareaopen(diff_imb ,300);
  bw2 = bwlabel(diff_imb ,8);
  stats2 = regionprops(bw2, 'BoundingBox','Centroid');
+ 
   % Circularities = Perimeter.^2./(4*pi*FilledArea);
  
  subplot(3,2,1)
