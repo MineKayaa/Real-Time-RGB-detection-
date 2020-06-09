@@ -1,2 +1,9 @@
 # Real-Time-RGB-detection-
 Detecting red, green, blue in real-time | MATLAB
+
+First when you run the code, it will start a video and detecting the colors. After a while (u can change it) it will take a snapshot and show it on a figure. After I tried to clean the noise on the image with grayScale and transforming to a binary image. (as u see on the output)
+ 
+And as a goal i assumed that i can detect objects if all the image is cleaned and transformed to binary. But this part not working correctly. (It has to detect rectangle, square etc.)
+
+And there is a loop for counting the objects, it will show up on the command window.
+
