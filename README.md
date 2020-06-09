@@ -7,3 +7,6 @@ And as a goal i assumed that i can detect objects if all the image is cleaned an
 
 And there is a loop for counting the objects, it will show up on the command window.
 
+![output](https://user-images.githubusercontent.com/47714688/84181768-11467a00-aa92-11ea-882e-14ed35d92ba2.png)
+
+
